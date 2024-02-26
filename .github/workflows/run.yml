@@ -17,5 +17,5 @@ jobs:
       - run: npm ci
       - run: npm run main
         env:
-          GLADOS: ${{ secrets.GLADOS }}
-          NOTIFY: ${{ secrets.NOTIFY }}
+          GLADOS: ${{ koa:sess=eyJ1c2VySWQiOjM1OTcyMSwiX2V4cGlyZSI6MTczNDg0ODA1Mjc5MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=zWBUKoliaq0fGdL_F9USSTVBVu4; _ga=GA1.1.293589368.1708927972;  }}
+          NOTIFY: ${{ b0d2e79e89194251b4857a7b986dce98 }}
